@@ -2,7 +2,7 @@
 using namespace std;
 
 typedef long long ll;
-void insertelement(int &mat[][],int r,int)
+
 
 int main() {
     ll r;
@@ -32,5 +32,6 @@ int main() {
     if(count==1){ cout<<iele<<" "<<jele<<"\n";}
     else cout<<r<<" "<<c<<"\n";
 
-    return {};
+    return 0;
 }
+

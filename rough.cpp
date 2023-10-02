@@ -1,14 +1,28 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main(){
-    unordered_map<int,int> ump;
-    vector<int> nums = {1,2,3,4,5,1,2,1};
-    int n = nums.size();
-    for(int i=0;i<n;i++){
+int main() {
+    
+    string str = "1k20b9";
 
-        ump[nums[i]]++;
+    string temp ="";
+    int sum=0;
+
+    for(char ch:str){
+        if(isdigit(ch)){
+            temp+=ch;
+        }
+
+        else{
+            sum += atoi(temp.c_str());
+            temp="";
+        }
     }
+   
 
-    cout<<ump[4];
+
+    cout<<sum+atoi(temp.c_str())<<" ";
+    
+
+
 }
