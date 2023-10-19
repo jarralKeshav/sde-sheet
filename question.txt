@@ -1,0 +1,24 @@
+martin's father goes for a jog ever morning. Martin follows him several minutes.His father starts at a position that is X1 meters away from his home and runs rectilinearly at a constant speed of V1 meters per step for N steps.
+Martin is standing at X2 meters away from his home.He wonders how fast he must run at some constant speed of V2 meters per step so as to maximize F, where F equals the number of his father's footsteps that Martin will land on during his run.It is given that the first step that Martin will land on, from his starting point, will have been landed on by his father.
+write algo to help Martin calculate F and
+V2
+Note - if more than one prospective velocity results in the same number of maximum common steps, output the highest prospective velocity as V2.
+
+Input - The first line of the input consists of two space seperated integers - X1 and X2 representing the initial positions of Martin's father and Martin respectively.
+Thes second line consists of two space-seperated integers - V1 and N representing the velocity of the father and the number of steps taken by the father respectively.
+
+Output - Print two space-seperated integers as maximum number of common footsteps F and respective speed V2
+
+Constraints
+1 <= X1 <=10^5
+0 <= X2 <= X1
+1 <= V1 <= 10^4
+1 <= N <= 10^4
+X1-3
+X2-2
+V1-2
+N-20 
+
+output
+
+21 1
