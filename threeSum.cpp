@@ -53,9 +53,11 @@ int main(){
     int ansSize = ans.size();
     // int ansColSize = ans[0].size();
     for(int i=0;i<ansSize;i++){
+        cout<<"[";
         for(int j=0;j<3;j++){
-            cout<<ans[i][j]<<" ";
+            cout<<ans[i][j]<<",";
         }
+        cout<<"]";
         cout<<"\n";
     }
 
